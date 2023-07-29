@@ -73,7 +73,11 @@ class ProjectCard extends StatelessWidget {
                       width: Responsive.isMobileLarge(context) ? 230 : 350,
                       child: Text(
                         project.description!,
-                        maxLines: Responsive.isMobileLarge(context) ? 7 : 12,
+                        maxLines: Responsive.isMobileLarge(context)
+                            ? 7
+                            : Responsive.isMobile(context)
+                                ? 5
+                                : 12,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(height: 1.5),
                       ),
@@ -114,7 +118,11 @@ class ProjectCard extends StatelessWidget {
                     SizedBox(
                       width: Responsive.isTablet(context) ? 130 : 170,
                       child: Text(
-                        maxLines: Responsive.isMobileLarge(context) ? 7 : 12,
+                        maxLines: Responsive.isMobileLarge(context)
+                            ? 7
+                            : Responsive.isMobile(context)
+                                ? 5
+                                : 12,
                         overflow: TextOverflow.ellipsis,
                         project.description!,
                         style: TextStyle(height: 1.5),

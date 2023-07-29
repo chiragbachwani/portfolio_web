@@ -13,31 +13,34 @@ class MyProjects extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text(
-          "My Projects",
-          style: Theme.of(context).textTheme.titleLarge,
-        ),
-        20.heightBox,
-        SizedBox(
-          child: Responsive(
-            mobile: ProjectsGridView(
-              crossAxisCount: 1,
-              childAspectRatio: 0.7,
-            ),
-            desktop: ProjectsGridView(),
-            tablet: ProjectsGridView(
-              crossAxisCount: 2,
-              childAspectRatio: 0.8,
-            ),
-            mobileLarge: ProjectsGridView(
-              crossAxisCount: 2,
-              childAspectRatio: 0.4,
+    return SingleChildScrollView(
+      physics: NeverScrollableScrollPhysics(),
+      child: Column(
+        children: [
+          Text(
+            "My Projects",
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
+          20.heightBox,
+          SizedBox(
+            child: Responsive(
+              mobile: ProjectsGridView(
+                crossAxisCount: 1,
+                childAspectRatio: 0.7,
+              ),
+              desktop: ProjectsGridView(),
+              tablet: ProjectsGridView(
+                crossAxisCount: 2,
+                childAspectRatio: 0.8,
+              ),
+              mobileLarge: ProjectsGridView(
+                crossAxisCount: 2,
+                childAspectRatio: 0.4,
+              ),
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
@@ -55,6 +58,7 @@ class ProjectsGridView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.builder(
+        physics: NeverScrollableScrollPhysics(),
         shrinkWrap: true,
         itemCount: demo_projects.length,
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
