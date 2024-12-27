@@ -22,9 +22,9 @@ class Knowledges extends StatelessWidget {
           ),
         ),
         KnowledgeText(text: "Flutter, Dart"),
-        KnowledgeText(text: "Getx,Firebase, BloC"),
-        KnowledgeText(text: "Davinci Resolve, Canva, Adobe"),
-        KnowledgeText(text: "GIT Knowledge"),
+        KnowledgeText(text: "Machine learning, Python"),
+        KnowledgeText(text: "C++"),
+        KnowledgeText(text: "GIT , GitHub , Visual Studio"),
       ],
     );
   }

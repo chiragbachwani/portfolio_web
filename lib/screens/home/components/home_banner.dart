@@ -177,15 +177,15 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "responsive Mobile Apps.",
+          "Responsive Mobile Apps.",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "complete E-Commerce App Package.",
+          "Full Stacks Projects",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "Chat app with stunning UI.",
+          "Flutter Projects",
           speed: Duration(milliseconds: 60),
         ),
       ],
@@ -250,12 +250,12 @@ class AnimatedText2 extends StatelessWidget {
           "I am Chirag Bachwani.",
           speed: Duration(milliseconds: 60),
         ),
+        // TyperAnimatedText(
+        //   "B.Tech CSE Student at MITS, Gwalior",
+        //   speed: Duration(milliseconds: 60),
+        // ),
         TyperAnimatedText(
-          "B.Tech CSE Student at MITS, Gwalior",
-          speed: Duration(milliseconds: 60),
-        ),
-        TyperAnimatedText(
-          "Flutter Developer at Reway Technology",
+          "Full Stack Developer",
           speed: Duration(milliseconds: 60),
         ),
       ],
@@ -273,11 +273,11 @@ class AnimatedText3 extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "Dart",
+          "Flutter",
           speed: Duration(milliseconds: 300),
         ),
         TyperAnimatedText(
-          "Flutter",
+          "Node Js",
           speed: Duration(milliseconds: 300),
         ),
         TyperAnimatedText(
@@ -303,15 +303,15 @@ class AnimatedText4 extends StatelessWidget {
           speed: Duration(milliseconds: 300),
         ),
         TyperAnimatedText(
-          "Davinci Resolve",
+          "Dart",
           speed: Duration(milliseconds: 300),
         ),
         TyperAnimatedText(
-          "Canva",
+          "Python",
           speed: Duration(milliseconds: 300),
         ),
         TyperAnimatedText(
-          "Getx",
+          "MOngoDB",
           speed: Duration(milliseconds: 300),
         ),
       ],
@@ -329,7 +329,7 @@ class AnimatedText5 extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "Python",
+          "DSA",
           speed: Duration(milliseconds: 300),
         ),
         TyperAnimatedText(

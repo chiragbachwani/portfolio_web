@@ -21,6 +21,10 @@ class Coding extends StatelessWidget {
             style: Theme.of(context).textTheme.titleSmall,
           ),
         ),
+          AnimatedLinearProgressIndicator(
+          percentage: 0.80,
+          label: "C++",
+        ),
         AnimatedLinearProgressIndicator(
           percentage: 0.7,
           label: "Dart",
@@ -29,12 +33,9 @@ class Coding extends StatelessWidget {
           percentage: 0.68,
           label: "Python",
         ),
+      
         AnimatedLinearProgressIndicator(
-          percentage: 0.7,
-          label: "C++",
-        ),
-        AnimatedLinearProgressIndicator(
-          percentage: 0.45,
+          percentage: 0.70,
           label: "SQL",
         ),
         // AnimatedLinearProgressIndicator(

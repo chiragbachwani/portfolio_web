@@ -53,7 +53,7 @@ class ProjectCard extends StatelessWidget {
                           aspectRatio: 16 / 9,
                           autoPlay: true,
                           height: 400,
-                          scrollPhysics: NeverScrollableScrollPhysics(),
+                          // scrollPhysics: NeverScrollableScrollPhysics(),
                           enlargeCenterPage: true,
                           itemCount: project.path!.length,
                           itemBuilder: ((context, index) {

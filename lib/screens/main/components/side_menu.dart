@@ -31,12 +31,12 @@ class SideMenu extends StatelessWidget {
                     ),
                     AreaInfoText(
                       title: "City",
-                      text: "Jabalpur/Gwalior",
+                      text: "Jabalpur",
                     ),
-                    AreaInfoText(
-                      title: "Age",
-                      text: "21",
-                    ),
+                    // AreaInfoText(
+                    //   title: "Age",
+                    //   text: "21",
+                    // ),
                     Skills(),
                     SizedBox(height: defaultPadding),
                     Coding(),
@@ -53,7 +53,7 @@ class SideMenu extends StatelessWidget {
                         child: Row(
                           children: [
                             Text(
-                              "DOWNLOAD CV",
+                              "DOWNLOAD RESUME",
                               style: TextStyle(
                                 color: Theme.of(context)
                                     .textTheme
@@ -76,7 +76,7 @@ class SideMenu extends StatelessWidget {
                           IconButton(
                             onPressed: () {
                               html.window.open(
-                                  "https://www.linkedin.com/in/chirag8055/",
+                                  "https://www.linkedin.com/in/chiragbachwani/",
                                   "_blank");
                             },
                             icon: SvgPicture.asset("assets/icons/linkedin.svg"),
@@ -95,7 +95,7 @@ class SideMenu extends StatelessWidget {
                                   "https://www.instagram.com/chirag_bachwani/",
                                   "_blank");
                             },
-                            icon: SvgPicture.asset("assets/icons/insta.svg"),
+                            icon: SvgPicture.asset("assets/icons/insta.svg", height: 20,),
                           ),
                           IconButton(
                             onPressed: () {

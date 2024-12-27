@@ -33,7 +33,7 @@ class HighLightsInfo extends StatelessWidget {
                       counter: AnimatedTextKit(
                         animatedTexts: [
                           TyperAnimatedText(
-                            "< Video Editor >",
+                            "< Full Stack Developer >",
                             textStyle: Theme.of(context).textTheme.titleMedium,
                           ),
                         ],
@@ -76,7 +76,7 @@ class HighLightsInfo extends StatelessWidget {
                   counter: AnimatedTextKit(
                     animatedTexts: [
                       TyperAnimatedText(
-                        "< Video Editor >",
+                        "< Full Stack Developer >",
                         textStyle: Theme.of(context).textTheme.titleMedium,
                       ),
                     ],
@@ -86,7 +86,7 @@ class HighLightsInfo extends StatelessWidget {
                   counter: AnimatedTextKit(
                     animatedTexts: [
                       TyperAnimatedText(
-                        "< Tech Enthusiast >",
+                        "< Freelancer >",
                         textStyle: Theme.of(context).textTheme.titleMedium,
                       ),
                     ],
